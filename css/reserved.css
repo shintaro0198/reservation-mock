@@ -1,0 +1,25 @@
+#reserved{
+  width: 500px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  text-align: center;
+}
+#reserved-title{
+  margin: 50px;
+  white-space: nowrap
+  ;
+}
+#reserved-button{
+  margin-bottom: 50px;
+}
+/**______________レスポンシブ___________**/
+@media screen and (max-width:768px){
+  #reserved{
+    width: 300px;
+  }
+}

@@ -1,0 +1,80 @@
+
+#mypage-title{
+  height: 80px;
+  width: 50%;
+  margin-left: auto;
+  line-height: 80px;
+}
+#mypage-left{
+  width: 40%;
+}
+#mypage-right{
+  width: 50%;
+}
+.mypage-subtitle{
+  margin-bottom: 30px;
+}
+#mypage-left-block{
+  width: 100%;
+  background-color: #3399FF;
+  color: white;
+  height: 220px;
+  border-radius: 5px;
+}
+#mypage-left-block>div{
+  margin-left: 30px;
+}
+.mypage-left-block-top{
+  line-height: 50px;
+}
+.img{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.mypage-left-block-bottom-content{
+  display: flex;
+  line-height: 30px;
+}
+.mypage-left-block-bottom-content-title{
+  width: 15%;
+  margin-right: 30px;
+}
+.mypage-right-content{
+  height: 220px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.mypage-right-content-img{
+  height: 120px;
+}
+.mypage-right-content-img img{
+  border-radius: 5px 5px 0 0;
+}
+.mypage-right-content-bottom-img{
+  height: 25px;
+  width: 25px;
+}
+/**____________________レスポンシブ__________________**/
+@media screen and (max-width:768px){
+  #mypage-title{
+    margin: auto;
+    text-align: center;
+  }
+  #mypage-left{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  #mypage-right{
+    width: 80%;
+    margin: auto;
+  }
+  .mypage-right-content{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}

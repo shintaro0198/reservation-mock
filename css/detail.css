@@ -1,0 +1,56 @@
+#detail-left{
+  width: 45%;
+}
+#detail-left-img{
+  width: 100%;
+  height: auto;
+}
+#detail-left>div{
+  margin-bottom: 30px;
+}
+#detail-right{
+  width: 45%;
+  background-color: #3399FF;
+  border-radius: 5px;
+  height: 450px;
+  color: white;
+  position: relative;
+}
+#detail-right-title{
+  padding-top: 20px;
+}
+#detail-right-top>div{
+  margin-left: 30px;
+}
+#detail-right-top div{
+  margin-bottom: 30px;
+}
+#detail-right-summary-content{
+  display: flex;
+}
+.detail-right-summary-content-title{
+  width: 15%;
+  margin-right: 30px;
+  display: block;
+}
+#detail-right-bottom{
+  background-color: blue;
+  text-align: center;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 0 0 5px 5px;
+}
+/**________________レスポンシブ______________**/
+@media screen and (max-width:768px){
+  #detail-left{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  #detail-right{
+    margin: auto;
+    width: 80%;
+  }
+  
+}

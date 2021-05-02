@@ -1,0 +1,22 @@
+#thanks{
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius: 5px;
+}
+#thanks-title{
+  margin: 50px;
+}
+.thanks-button{
+  margin-bottom: 50px;
+}
+/**_____________________レスポンシブ_____________**/
+@media screen and (max-width:768px){
+  #thanks{
+    width: 280px;
+  }
+}

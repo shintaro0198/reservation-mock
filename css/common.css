@@ -1,0 +1,131 @@
+body{
+  height: 100%;
+  background-color: #EEEEEE;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;;
+}
+html{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+input{
+  outline: none;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box;
+}
+select{
+  border-style: none;
+  background-color: white;
+  outline: none;
+}
+option{
+  border-radius: 30px;
+}
+img{
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.button{
+  padding: 7px 14px;
+  display: inline-block;
+  color: white;
+  background-color: #3399FF;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: right;
+  cursor: pointer;
+}
+.shadow{
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.pointer{
+  cursor: pointer;
+}
+.title1{
+  font-size: 25px;
+}
+.title2{
+  font-size: 20px;
+}
+.title3{
+  font-size: 18px;
+}
+.title4{
+  font-size: 16px;
+}
+.small{
+  font-size: 13px;
+}
+.bold{
+  font-weight: 600;
+}
+.flex{
+  display: flex;
+}
+.block{
+  display: block;
+}
+.between{
+  justify-content: space-between;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.mgt10{
+  margin-top: 10px;
+}
+.mgt20{
+  margin-top: 20px;
+}
+.mgb10{
+  margin-bottom: 10px;
+}
+.mgb20{
+  margin-bottom: 20px;
+}
+.mgr10{
+  margin-right: 10px;
+}
+.mgr20{
+  margin-right: 20px;
+}
+.mgl10{
+  margin-left: 10px;
+}
+.mgl20{
+  margin-left: 20px;
+}
+
+
+/*****************ヘッダー******************/
+.header{
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: #3399FF;
+}
+.header-title{
+  font-weight: 600;
+  font-size: 25px;
+}
+.header-content{
+
+  font-size: 20px;
+  color: #3399FF;
+}
+/**_________________レスポンシブ________**/
+@media screen and (max-width:768px){
+  .responsive-block{
+    display: block;
+}
+}
